@@ -4,17 +4,21 @@
   "description": "",
   "private": true,
   "dependencies": {
-    "egg": "^2.2.1",
-    "egg-scripts": "^2.5.0"
+    "egg": "^2.8.1",
+    "egg-scripts": "^2.6.0",
+    "egg-validate": "^1.0.0",
   },
   "devDependencies": {
     "autod": "^3.0.1",
-    "autod-egg": "^1.0.0",
-    "egg-bin": "^4.3.5",
+    "autod-egg": "^1.1.0",
+    "egg-bin": "^4.7.0",
     "egg-ci": "^1.8.0",
-    "egg-mock": "^3.14.0",
-    "eslint": "^4.11.0",
-    "eslint-config-egg": "^6.0.0",
+    "egg-mock": "^3.17.2",
+    "eslint": "^4.19.1",
+    "eslint-config-egg": "^7.0.0",
+    "shipit-cnpm": "^0.7.0",
+    "shipit-deploy": "^4.1.0",
+    "shipit-npm": "^0.2.0",
     "webstorm-disable-index": "^1.2.0"
   },
   "engines": {
@@ -30,7 +34,13 @@
     "cov": "egg-bin cov",
     "lint": "eslint .",
     "ci": "npm run lint && npm run cov",
-    "autod": "autod"
+    "autod": "autod",
+    "deploy": "shipit staging deploy",
+    "rollback": "shipit staging rollback",
+    "deploy:dev": "shipit development deploy",
+    "rollback:dev": "shipit development rollback",
+    "deploy:test": "shipit test deploy",
+    "rollback:test": "shipit test rollback"
   },
   "ci": {
     "version": "8"

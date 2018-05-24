@@ -2,10 +2,10 @@
 
 const Controller = require('egg').Controller;
 
-class HomeController extends Controller {
+class ProductController extends Controller {
   async index () {
     this.ctx.body = 'hi, egg';
   }
 }
 
-module.exports = HomeController;
+module.exports = ProductController;
