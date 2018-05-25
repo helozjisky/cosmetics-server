@@ -11,7 +11,7 @@
       "value": "/home/jason/Documents/Makeup/cosmetics-server/node_modules/_egg-security@2.2.2@egg-security/config/config.default.js"
     },
     "hsts": {
-      "enable": "/home/jason/Documents/Makeup/cosmetics-server/node_modules/_egg-security@2.2.2@egg-security/config/config.local.js",
+      "enable": "/home/jason/Documents/Makeup/cosmetics-server/node_modules/_egg-security@2.2.2@egg-security/config/config.default.js",
       "maxAge": "/home/jason/Documents/Makeup/cosmetics-server/node_modules/_egg-security@2.2.2@egg-security/config/config.default.js",
       "includeSubdomains": "/home/jason/Documents/Makeup/cosmetics-server/node_modules/_egg-security@2.2.2@egg-security/config/config.default.js"
     },
@@ -70,7 +70,7 @@
     "cookieMaxAge": "/home/jason/Documents/Makeup/cosmetics-server/node_modules/_egg-i18n@2.0.0@egg-i18n/config/config.default.js"
   },
   "watcher": {
-    "type": "/home/jason/Documents/Makeup/cosmetics-server/node_modules/_egg-watcher@3.0.0@egg-watcher/config/config.local.js",
+    "type": "/home/jason/Documents/Makeup/cosmetics-server/node_modules/_egg-watcher@3.0.0@egg-watcher/config/config.default.js",
     "eventSources": {
       "default": "/home/jason/Documents/Makeup/cosmetics-server/node_modules/_egg-watcher@3.0.0@egg-watcher/config/config.default.js",
       "development": "/home/jason/Documents/Makeup/cosmetics-server/node_modules/_egg-watcher@3.0.0@egg-watcher/config/config.default.js"
@@ -86,13 +86,6 @@
     "files": "/home/jason/Documents/Makeup/cosmetics-server/node_modules/_egg-multipart@2.0.0@egg-multipart/config/config.default.js",
     "fileExtensions": "/home/jason/Documents/Makeup/cosmetics-server/node_modules/_egg-multipart@2.0.0@egg-multipart/config/config.default.js",
     "whitelist": "/home/jason/Documents/Makeup/cosmetics-server/node_modules/_egg-multipart@2.0.0@egg-multipart/config/config.default.js"
-  },
-  "development": {
-    "watchDirs": "/home/jason/Documents/Makeup/cosmetics-server/node_modules/_egg-development@2.2.0@egg-development/config/config.default.js",
-    "ignoreDirs": "/home/jason/Documents/Makeup/cosmetics-server/node_modules/_egg-development@2.2.0@egg-development/config/config.default.js",
-    "fastReady": "/home/jason/Documents/Makeup/cosmetics-server/node_modules/_egg-development@2.2.0@egg-development/config/config.default.js",
-    "reloadOnDebug": "/home/jason/Documents/Makeup/cosmetics-server/node_modules/_egg-development@2.2.0@egg-development/config/config.default.js",
-    "overrideDefault": "/home/jason/Documents/Makeup/cosmetics-server/node_modules/_egg-development@2.2.0@egg-development/config/config.default.js"
   },
   "customLogger": {
     "scheduleLogger": {
@@ -114,12 +107,13 @@
     "dir": "/home/jason/Documents/Makeup/cosmetics-server/node_modules/_egg-static@2.1.1@egg-static/config/config.default.js",
     "dynamic": "/home/jason/Documents/Makeup/cosmetics-server/node_modules/_egg-static@2.1.1@egg-static/config/config.default.js",
     "preload": "/home/jason/Documents/Makeup/cosmetics-server/node_modules/_egg-static@2.1.1@egg-static/config/config.default.js",
-    "buffer": "/home/jason/Documents/Makeup/cosmetics-server/node_modules/_egg-static@2.1.1@egg-static/config/config.default.js",
-    "maxFiles": "/home/jason/Documents/Makeup/cosmetics-server/node_modules/_egg-static@2.1.1@egg-static/config/config.default.js"
+    "buffer": "/home/jason/Documents/Makeup/cosmetics-server/node_modules/_egg-static@2.1.1@egg-static/config/config.prod.js",
+    "maxFiles": "/home/jason/Documents/Makeup/cosmetics-server/node_modules/_egg-static@2.1.1@egg-static/config/config.default.js",
+    "maxAge": "/home/jason/Documents/Makeup/cosmetics-server/node_modules/_egg-static@2.1.1@egg-static/config/config.prod.js"
   },
   "view": {
     "root": "/home/jason/Documents/Makeup/cosmetics-server/node_modules/_egg-view@2.1.0@egg-view/config/config.default.js",
-    "cache": "/home/jason/Documents/Makeup/cosmetics-server/node_modules/_egg-view@2.1.0@egg-view/config/config.local.js",
+    "cache": "/home/jason/Documents/Makeup/cosmetics-server/node_modules/_egg-view@2.1.0@egg-view/config/config.default.js",
     "defaultExtension": "/home/jason/Documents/Makeup/cosmetics-server/node_modules/_egg-view@2.1.0@egg-view/config/config.default.js",
     "defaultViewEngine": "/home/jason/Documents/Makeup/cosmetics-server/node_modules/_egg-view@2.1.0@egg-view/config/config.default.js",
     "mapping": "/home/jason/Documents/Makeup/cosmetics-server/node_modules/_egg-view@2.1.0@egg-view/config/config.default.js"
@@ -148,6 +142,10 @@
       "egg-mock": "/home/jason/Documents/Makeup/cosmetics-server/node_modules/_egg@2.8.1@egg/config/config.default.js",
       "eslint": "/home/jason/Documents/Makeup/cosmetics-server/node_modules/_egg@2.8.1@egg/config/config.default.js",
       "eslint-config-egg": "/home/jason/Documents/Makeup/cosmetics-server/node_modules/_egg@2.8.1@egg/config/config.default.js",
+      "shipit-cli": "/home/jason/Documents/Makeup/cosmetics-server/node_modules/_egg@2.8.1@egg/config/config.default.js",
+      "shipit-cnpm": "/home/jason/Documents/Makeup/cosmetics-server/node_modules/_egg@2.8.1@egg/config/config.default.js",
+      "shipit-deploy": "/home/jason/Documents/Makeup/cosmetics-server/node_modules/_egg@2.8.1@egg/config/config.default.js",
+      "shipit-npm": "/home/jason/Documents/Makeup/cosmetics-server/node_modules/_egg@2.8.1@egg/config/config.default.js",
       "webstorm-disable-index": "/home/jason/Documents/Makeup/cosmetics-server/node_modules/_egg@2.8.1@egg/config/config.default.js"
     },
     "engines": {
@@ -163,7 +161,13 @@
       "cov": "/home/jason/Documents/Makeup/cosmetics-server/node_modules/_egg@2.8.1@egg/config/config.default.js",
       "lint": "/home/jason/Documents/Makeup/cosmetics-server/node_modules/_egg@2.8.1@egg/config/config.default.js",
       "ci": "/home/jason/Documents/Makeup/cosmetics-server/node_modules/_egg@2.8.1@egg/config/config.default.js",
-      "autod": "/home/jason/Documents/Makeup/cosmetics-server/node_modules/_egg@2.8.1@egg/config/config.default.js"
+      "autod": "/home/jason/Documents/Makeup/cosmetics-server/node_modules/_egg@2.8.1@egg/config/config.default.js",
+      "deploy": "/home/jason/Documents/Makeup/cosmetics-server/node_modules/_egg@2.8.1@egg/config/config.default.js",
+      "rollback": "/home/jason/Documents/Makeup/cosmetics-server/node_modules/_egg@2.8.1@egg/config/config.default.js",
+      "deploy:dev": "/home/jason/Documents/Makeup/cosmetics-server/node_modules/_egg@2.8.1@egg/config/config.default.js",
+      "rollback:dev": "/home/jason/Documents/Makeup/cosmetics-server/node_modules/_egg@2.8.1@egg/config/config.default.js",
+      "deploy:test": "/home/jason/Documents/Makeup/cosmetics-server/node_modules/_egg@2.8.1@egg/config/config.default.js",
+      "rollback:test": "/home/jason/Documents/Makeup/cosmetics-server/node_modules/_egg@2.8.1@egg/config/config.default.js"
     },
     "ci": {
       "version": "/home/jason/Documents/Makeup/cosmetics-server/node_modules/_egg@2.8.1@egg/config/config.default.js"
@@ -219,9 +223,7 @@
     "coreLogName": "/home/jason/Documents/Makeup/cosmetics-server/node_modules/_egg@2.8.1@egg/config/config.default.js",
     "agentLogName": "/home/jason/Documents/Makeup/cosmetics-server/node_modules/_egg@2.8.1@egg/config/config.default.js",
     "errorLogName": "/home/jason/Documents/Makeup/cosmetics-server/node_modules/_egg@2.8.1@egg/config/config.default.js",
-    "coreLogger": {
-      "consoleLevel": "/home/jason/Documents/Makeup/cosmetics-server/node_modules/_egg@2.8.1@egg/config/config.local.js"
-    },
+    "coreLogger": "/home/jason/Documents/Makeup/cosmetics-server/node_modules/_egg@2.8.1@egg/config/config.default.js",
     "allowDebugAtProd": "/home/jason/Documents/Makeup/cosmetics-server/node_modules/_egg@2.8.1@egg/config/config.default.js"
   },
   "httpclient": {
